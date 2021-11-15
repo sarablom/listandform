@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: brown;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    display: inline;
+}
+
+main {
+    background-color: burlywood;
+    flex: 1 0 auto;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.form label,
+.form .input {
+  display: block;
+  text-align: left;
+  width: 80%;
+  margin: 3px auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+ 
+.btn {
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+    background: brown;
+    color: #fff;
+    font-family: inherit;
+    margin: 10px auto;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    color: brown;
+    background: #fff;
+}
+
+.list-btn {
+    display: inline;
+    float: right;
+    margin-right: 10rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.list__item {
+    list-style-type: none;
+    width: 100%;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.column, 
+h3 {
+    width: 20rem;
+    padding: .2rem 3rem;
+}
+
+.list-title {
+    padding: 1rem;
+}
+
+footer {
+    background-color: brown;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
